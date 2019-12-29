@@ -8,28 +8,17 @@
     <title>MagmaCube - Settings</title>
 
     <link rel="stylesheet" href="style/global.css">
+    <link rel="stylesheet" href="style/settings.css">
     <link rel="stylesheet" type="text/css" href="dist/loading-bar.css"/>
     <script type="text/javascript" src="dist/loading-bar.js"></script>
+    <script src="scripts/settings.js"></script>
 </head>
-<?php include "includes/nav.php"; ?>
+<?php include "includes/nav.php";
+for ($i = 0; $i < 6; $i++) echo "<br/>"; ?>
 <body>
-<?php
-
-$hour = intval(date("H")) + 1;
-if (intval($hour) >= 16 || intval($hour) <= 8) {
-    echo "<style>body{background-color: darkslategrey;}</style>";
-} else {
-    echo "<style>body{background-color: antiquewhite;}</style>";
-} ?>
 
 <div class="page">
 
-    <?php
-
-    for ($i = 0; $i < 100; $i++) {
-        echo "<p>Settings<br/></p>";
-    }
-    ?>
 
 </div>
 

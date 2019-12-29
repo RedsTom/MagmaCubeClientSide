@@ -1,0 +1,8 @@
+{
+  "accounts": {
+    "test": {
+      "dark_mode": "true",
+      "...": "..."
+    }
+  }
+}

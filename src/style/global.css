@@ -32,6 +32,10 @@
 
 div.page {
 
-    margin-left: 260px;
+    margin-left: 10px;
 
+}
+
+div.page_with_left {
+    margin-left: 260px;
 }
